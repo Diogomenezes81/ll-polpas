@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" rx="60" fill="#e8f3e2"/><rect x="130" y="150" width="940" height="600" rx="40" fill="#fff"/>
+  <circle cx="420" cy="420" r="150" fill="#ef7d3b"/><path d="M430 270c25-90 98-113 170-85-39 80-94 101-170 85Z" fill="#3d8248"/>
+  <rect x="660" y="295" width="270" height="35" rx="18" fill="#3d8248"/><rect x="660" y="375" width="210" height="27" rx="14" fill="#efb42d"/><rect x="660" y="435" width="250" height="27" rx="14" fill="#efb42d"/><rect x="660" y="495" width="180" height="27" rx="14" fill="#efb42d"/>
+  <text x="600" y="815" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#32643b">FOTOGRAFIA DA EMPRESA / PRODUÇÃO</text>
+</svg>

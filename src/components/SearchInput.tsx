@@ -1,0 +1,4 @@
+type SearchInputProps = { value: string; onChange: (value: string) => void };
+export function SearchInput({ value, onChange }: SearchInputProps) {
+  return <label className="relative block"><span className="sr-only">Pesquisar produtos por nome ou sabor</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input type="search" value={value} onChange={(event) => onChange(event.target.value)} placeholder="Busque por nome ou sabor" className="w-full rounded-2xl border border-slate-200 bg-white py-3.5 pl-12 pr-4 text-slate-900 outline-none placeholder:text-slate-400 focus:border-green-600 focus:ring-4 focus:ring-green-100"/></label>;
+}
