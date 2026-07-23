@@ -10,6 +10,6 @@ export const empresa = {
   email: "contato@llpolpas.com.br",
   instagram: "@llpolpas",
   cnpj: "53.433.944/0001-58",
-  endereco: "Região de atendimento a definir",
+  endereco: "Pereira Barreto e cidades vizinhas",
   horario: "Segunda a sábado, das 8h às 18h",
 } as const;
