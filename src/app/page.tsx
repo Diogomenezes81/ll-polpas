@@ -85,6 +85,23 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="bg-orange-100 py-14 sm:py-16">
+        <div className="container-site flex flex-col items-center justify-between gap-7 text-center md:flex-row md:text-left">
+          <div>
+            <p className="eyebrow">Toda semana tem novidade</p>
+            <h2 className="mt-3 text-3xl font-black text-green-950">
+              Aproveite nossas ofertas da semana
+            </h2>
+            <p className="mt-3 max-w-2xl text-slate-600">
+              Confira os produtos selecionados e consulte as condições
+              promocionais diretamente com nossa equipe.
+            </p>
+          </div>
+          <Link href="/ofertas" className="button-secondary shrink-0">
+            Ver ofertas da semana <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+      </section>
       <section className="py-20 sm:py-24">
         <div className="container-site grid overflow-hidden rounded-[2.5rem] bg-green-950 text-white lg:grid-cols-2">
           <div className="p-8 sm:p-12 lg:p-16">
