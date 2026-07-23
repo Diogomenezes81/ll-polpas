@@ -1,7 +1,7 @@
 export type CategoriaProduto = "citricas" | "tropicais" | "vermelhas" | "outros";
 
 export type Produto = {
-  id: number;
+  id: number | string;
   slug: string;
   nome: string;
   sabor: string;

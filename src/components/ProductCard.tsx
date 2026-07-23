@@ -14,6 +14,7 @@ export function ProductCard({ produto }: { produto: Produto }) {
             src={produto.imagem}
             alt={`Embalagem de ${produto.nome}`}
             fill
+            unoptimized={produto.imagem.startsWith("http")}
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-contain p-5 transition duration-500 group-hover:scale-105 motion-reduce:transform-none"
           />

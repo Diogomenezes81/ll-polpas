@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SectionTitle } from "@/components/SectionTitle";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { produtos } from "@/data/produtos";
+import { listarProdutos } from "@/data/cms";
 
 const features = [
   {
@@ -44,7 +44,8 @@ const features = [
   },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const produtos = await listarProdutos();
   return (
     <main id="conteudo">
       <Hero />

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SectionTitle } from "@/components/SectionTitle";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { ofertasSemana } from "@/data/ofertas";
+import { listarOfertas } from "@/data/cms";
 
 export const metadata: Metadata = {
   title: "Ofertas da semana",
@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     "Confira os produtos selecionados nas ofertas da semana da LL Polpas e consulte as condições pelo WhatsApp.",
 };
 
-export default function OfertasPage() {
+export default async function OfertasPage() {
+  const ofertasSemana = await listarOfertas();
   return (
     <main id="conteudo">
       <section className="bg-orange-100 py-16 sm:py-20">
@@ -41,4 +42,3 @@ export default function OfertasPage() {
     </main>
   );
 }
-
