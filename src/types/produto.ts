@@ -8,6 +8,7 @@ export type Produto = {
   categoria: CategoriaProduto;
   peso: string;
   preco: string;
+  precoOriginal?: string;
   precoAvulso?: string;
   imagem: string;
   descricao: string;
