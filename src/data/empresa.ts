@@ -7,7 +7,7 @@ export const empresa = {
   telefoneSecundario: "(18) 99670-9725",
   contatoPrincipal: "Diogo",
   contatoSecundario: "Paula",
-  email: "contato@llpolpas.com.br",
+  email: "diogomenezes81@gmail.com",
   instagram: "@llpolpas",
   cnpj: "53.433.944/0001-58",
   endereco:
