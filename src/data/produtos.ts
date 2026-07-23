@@ -43,5 +43,9 @@ export const produtos: Produto[] = catalogo.map((produto, index) => ({
   imagem: produto.imagem ?? placeholder,
   descricao: `${produto.sabor}: qualidade e praticidade para bebidas, receitas e consumo diário.`,
   disponivel: true,
-  destaque: index < 4,
+  destaque: [
+    "Polpa de Maracujá",
+    "Polpa de Abacaxi com Hortelã",
+    "Morango Fruta Congelada",
+  ].includes(produto.nome),
 }));
